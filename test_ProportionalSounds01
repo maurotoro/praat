@@ -1,13 +1,24 @@
 select all
 Remove
-Create Sound as pure tone: "tone1", 1, 0, 1, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "tone2", 1, 0.3, 0.7, 44100, 550, 0.2, 0.01, 0.01
-selectObject: "Sound tone1"
-plusObject: "Sound tone2"
+Create Sound as pure tone: "toneLow1", 1, 0, 1, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh1", 1, 0.3, 0.7, 44100, 550, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow1"
+plusObject: "Sound toneHigh1"
 Combine to stereo
 Play
 
 
 #file directories:
 selectObject: "Sound combined_2"
+Rename: "combined_1LH"
 Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/combined_2.wav"
+
+lowToneA = readFile ("LowToneA-dur")
+writeInfoLine:  lowToneA
+
+#Not Working for loop.....fuckthisshit!
+for i from 1 to 5
+	Read Strings from raw text file: "/Personal/scripKidd/praat/LowToneA-dur"
+	appendInfoLine: Extract part: i,i
+	 
+endfor
