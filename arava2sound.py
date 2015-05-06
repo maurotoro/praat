@@ -509,3 +509,37 @@ for x,datae in enumerate(zip(c,d)):
 		f.write(csndAL+"\n"+csndAH+"\n"+csndBL+"\n"+csndBH+"\n"+selsA+delay+selsB+cat+savW)
 		f.close()
 	#print csndAL+"\n"+csndAH+"\n"+csndBL+"\n"+csndBH+"\n"+selsA+selsB+delay+cat+savW
+
+for x,datae in enumerate(zip(c,d)):
+    """
+        Creates a praat script in the most unelegant and nonsofisticated way, 
+        csndXY creates the pairs of sounds; selsX creates every stimuli pairs
+        cat concatenates them with the delay, and savW saves a .wav of this concatenation
+        The script creates needs to be deleted after every change to avoid repetition, it only
+        appends new lines, doesn't care about file history...
+    """
+    dataA=datae[0]; dataB=datae[1]
+    isiA=random.randint(0,dataA[4])/1000.0
+    lenAH=isiA+dataA[3]/1000.0
+    lenAL=dataA[2]/1000.0
+    namAH="toneHigh"+str(dataA[0])
+    namAL="toneLow"+str(dataA[0])
+    isiB=random.randint(0,dataB[4])/1000.0
+    lenBH=isiB+dataB[3]/1000.0
+    lenBL=dataB[2]/1000.0
+    namBH="toneHigh"+str(dataB[0])
+    namBL="toneLow"+str(dataB[0])
+    csndAL= 'Create Sound as pure tone: "' + namAL + '", 1, 0, '+str(lenAL)+", 44100, 440, 0.2, 0.01, 0.01"
+    csndAH= 'Create Sound as pure tone: "' + namAH + '", 1, '+str(isiA)+", "+str(lenAH)+", 44100, 660, 0.2, 0.01, 0.01"
+    csndBL= 'Create Sound as pure tone: "' + namBL + '", 1, 0, '+str(lenBL)+", 44100, 440, 0.2, 0.01, 0.01"
+    csndBH= 'Create Sound as pure tone: "' + namBH + '", 1, '+str(isiB)+", "+str(lenBH)+", 44100, 660, 0.2, 0.01, 0.01"
+    selsA='selectObject: "Sound '+namAL+'"\n'+'plusObject: "Sound '+namAH+'"\n'+"Combine to stereo\n"+'selectObject: "Sound combined_2"\n'+"Convert to mono\n"+'selectObject: "Sound combined_2_mono"\n'+'Rename: "combined_2_mono_A"\n'+'selectObject: "Sound combined_2"\n'+'Remove\nselectObject: "Sound combined_2_mono_A"\n'
+    selsB='selectObject: "Sound '+namBL+'"\n'+'plusObject: "Sound '+namBH+'"\n'+"Combine to stereo\n"+'selectObject: "Sound combined_2"\n'+"Convert to mono\n"+'selectObject: "Sound combined_2_mono"\n'+'Rename: "combined_2_mono_B"\n'+'selectObject: "Sound combined_2"\n'+'Remove\nselectObject: "Sound combined_2_mono_B"\n'
+    delay='Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"\n'
+    #cat='selectObject: "Sound combined_2_mono_A"\n'+'plusObject: "Sound delay"\n'+'plusObject: "Sound combined_2_mono_B"\n'+'Concatenate\n'+'selectObject: "Sound chain"\n'
+    savWA='Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/'+str(x)+'_'+str(dataA[0])+'-part'+'.wav"\n'+'select all\nRemove\n'
+    savWB='Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/'+str(x)+'_'+str(dataB[0])+'-part'+'.wav"\n'+'select all\nRemove\n'
+    with  open("/Personal/scripKidd/git/praat/praatScript_AravaEP2CompatX1.1.p","a+") as f:
+        f.write(csndAL+"\n"+csndAH+"\n"+selsA+savWA+csndBL+"\n"+csndBH+"\n"+selsB+savWB)
+        f.close()
+        #print csndAL+"\n"+csndAH+"\n"+csndBL+"\n"+csndBH+"\n"+selsA+selsB+delay+cat+savW

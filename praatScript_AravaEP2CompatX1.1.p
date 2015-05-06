@@ -1,7 +1,5 @@
 Create Sound as pure tone: "toneLow5-8", 1, 0, 1.335, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.204, 1.039, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 0.912, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.04, 0.724, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.114, 0.949, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -11,7 +9,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/0_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 0.912, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.195, 0.879, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -21,18 +24,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_0_5-8_6-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/0_6-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow6-8", 1, 0, 1.112, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.048, 0.883, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.093, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.069, 0.753, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.247, 1.082, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -42,7 +39,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/1_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.093, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.159, 0.843, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -52,18 +54,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_1_6-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/1_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow4-8", 1, 0, 1.416, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.167, 0.875, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.891, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.105, 0.662, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.382, 1.09, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -73,7 +69,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/2_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.891, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.089, 0.646, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -83,18 +84,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_2_4-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/2_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 1.133, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.079, 0.787, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.113, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.249, 0.806, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.275, 0.983, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -104,7 +99,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/3_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.113, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.391, 0.948, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -114,18 +114,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_3_5-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/3_4-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow2-8", 1, 0, 1.808, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.34, 0.793, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 0.801, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.437, 0.737, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.983, 1.436, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -135,7 +129,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/4_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 0.801, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.271, 0.571, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -145,18 +144,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_4_2-8_3-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/4_3-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow3-8", 1, 0, 1.205, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.236, 0.689, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.203, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.059, 0.36, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.013, 0.466, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -166,7 +159,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/5_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.203, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.655, 0.956, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -176,18 +174,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_5_3-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/5_2-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 1.412, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.326, 1.208, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow7-8", 1, 0, 0.835, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.068, 0.798, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.144, 1.026, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -197,7 +189,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/6_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 0.835, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.033, 0.763, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -207,18 +204,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_6_5-8_7-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/6_7-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow7-8", 1, 0, 1.008, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.119, 1.0, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.17, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.236, 0.967, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.1, 0.981, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -228,7 +219,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/7_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.17, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.007, 0.738, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -238,18 +234,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_7_7-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/7_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow3-8", 1, 0, 1.656, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 1.017, 1.638, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.752, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.082, 0.552, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.669, 1.29, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -259,7 +249,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/8_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.752, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.265, 0.735, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -269,18 +264,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_8_3-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/8_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 0.994, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.135, 0.756, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.253, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.087, 0.557, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.252, 0.873, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -290,7 +279,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/9_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.253, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.095, 0.565, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -300,18 +294,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_9_5-8_3-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/9_3-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow2-8", 1, 0, 1.941, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.304, 0.789, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.023, 0.358, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.764, 1.249, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -321,7 +309,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/10_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.206, 0.541, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -331,18 +324,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_10_2-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/10_4-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow4-8", 1, 0, 0.971, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.043, 0.529, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.14, 0.474, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.16, 0.646, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -352,7 +339,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/11_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.056, 0.39, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -362,18 +354,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_11_4-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/11_2-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow4-8", 1, 0, 1.578, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.136, 0.925, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow7-8", 1, 0, 0.729, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.016, 0.654, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.785, 1.574, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -383,7 +369,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/12_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 0.729, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.071, 0.709, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -393,18 +384,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_12_4-8_7-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/12_7-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow7-8", 1, 0, 0.902, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.106, 0.895, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.275, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.475, 1.113, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.036, 0.825, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -414,7 +399,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/13_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.275, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.536, 1.174, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -424,18 +414,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_13_7-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/13_4-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow3-8", 1, 0, 1.74, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.198, 0.85, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.158, 0.659, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.972, 1.624, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -445,7 +429,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/14_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.156, 0.657, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -455,18 +444,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_14_3-8_6-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/14_6-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow6-8", 1, 0, 0.869, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.065, 0.717, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.16, 0.661, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.092, 0.744, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -476,7 +459,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/15_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.206, 0.707, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -486,18 +474,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_15_6-8_3-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/15_3-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow2-8", 1, 0, 2.037, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.268, 0.778, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.572, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.015, 0.372, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.668, 1.178, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -507,7 +489,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/16_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.572, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.081, 0.438, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -517,18 +504,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_16_2-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/16_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 0.814, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.019, 0.528, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.432, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.114, 0.473, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.276, 0.785, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -538,7 +519,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/17_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.432, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.945, 1.304, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -548,18 +534,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_17_5-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/17_2-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 1.093, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.214, 0.898, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 1.112, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.023, 0.858, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.043, 0.727, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -569,7 +549,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/18_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 1.112, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.205, 1.04, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -579,28 +564,27 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_18_5-8_6-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/18_6-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow6-8", 1, 0, 0.912, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.018, 0.702, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.045, 0.729, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow6-8"
+plusObject: "Sound toneHigh6-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/19_6-8-part.wav"
+select all
+Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 1.335, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.436, 1.271, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow6-8"
-plusObject: "Sound toneHigh6-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+Create Sound as pure tone: "toneHigh5-8", 1, 0.378, 1.213, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -610,18 +594,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_19_6-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/19_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow4-8", 1, 0, 1.113, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.239, 0.796, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.133, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.124, 0.832, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.368, 0.925, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -631,7 +609,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/20_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.133, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.327, 1.035, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -641,18 +624,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_20_4-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/20_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 0.891, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.318, 0.875, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.416, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.417, 1.125, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.117, 0.674, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -662,7 +639,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/21_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.416, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.685, 1.393, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -672,18 +654,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_21_5-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/21_4-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow2-8", 1, 0, 1.203, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.601, 0.902, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.205, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.746, 1.199, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.539, 0.84, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -693,7 +669,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/22_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.205, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.18, 0.633, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -703,18 +684,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_22_2-8_3-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/22_3-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow3-8", 1, 0, 0.801, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.108, 0.408, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.808, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.586, 1.039, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.016, 0.316, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -724,7 +699,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/23_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.808, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.739, 1.192, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -734,18 +714,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_23_3-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/23_2-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 1.17, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.355, 1.086, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow7-8", 1, 0, 1.008, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.079, 0.96, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.241, 0.972, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -755,7 +729,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/24_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 1.008, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.088, 0.969, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -765,18 +744,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_24_5-8_7-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/24_7-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow7-8", 1, 0, 0.835, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.003, 0.733, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.412, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.516, 1.398, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.067, 0.797, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -786,7 +759,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/25_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.412, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.322, 1.204, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -796,18 +774,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_25_7-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/25_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow3-8", 1, 0, 1.253, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.311, 0.781, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.994, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.0, 0.621, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.403, 0.873, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -817,7 +789,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/26_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.994, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.169, 0.79, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -827,18 +804,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_26_3-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/26_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 0.752, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.014, 0.484, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.656, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.197, 0.818, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.245, 0.715, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -848,7 +819,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/27_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.656, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.721, 1.342, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -858,18 +834,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_27_5-8_3-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/27_3-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow2-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.772, 1.106, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 0.971, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.344, 0.83, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.137, 0.471, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -879,7 +849,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/28_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 0.971, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.026, 0.512, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -889,18 +864,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_28_2-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/28_4-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow4-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.113, 0.448, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.941, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.893, 1.378, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.21, 0.545, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -910,7 +879,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/29_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.941, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.693, 1.178, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -920,28 +894,27 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_29_4-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/29_2-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow4-8", 1, 0, 1.275, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.437, 1.075, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.489, 1.127, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/30_4-8-part.wav"
+select all
+Remove
 Create Sound as pure tone: "toneLow7-8", 1, 0, 0.902, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.058, 0.847, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+Create Sound as pure tone: "toneHigh7-8", 1, 0.088, 0.877, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -951,576 +924,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_30_4-8_7-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/30_7-8-part.wav"
 select all
 Remove
-Create Sound as pure tone: "toneLow7-8", 1, 0, 0.729, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.017, 0.655, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.578, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.439, 1.228, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow7-8"
-plusObject: "Sound toneHigh7-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_31_7-8_4-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.632, 1.133, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 0.869, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.086, 0.738, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow6-8"
-plusObject: "Sound toneHigh6-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_32_3-8_6-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow6-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.155, 0.656, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.74, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.538, 1.19, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow6-8"
-plusObject: "Sound toneHigh6-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_33_6-8_3-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.432, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.842, 1.201, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.814, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.145, 0.654, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_34_2-8_5-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.572, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.198, 0.555, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 2.037, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.021, 0.531, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_35_5-8_2-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.577, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.559, 1.545, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 0.912, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.004, 0.688, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow6-8"
-plusObject: "Sound toneHigh6-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_36_5-8_6-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow6-8", 1, 0, 1.314, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.291, 1.277, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.093, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.399, 1.083, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow6-8"
-plusObject: "Sound toneHigh6-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_37_6-8_5-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.718, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.004, 0.864, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.891, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.322, 0.879, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_38_4-8_5-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.375, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.354, 1.214, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.113, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.002, 0.559, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_39_5-8_4-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow2-8", 1, 0, 2.413, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 1.661, 2.265, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 0.801, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.441, 0.741, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_40_2-8_3-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.608, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.546, 1.149, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.203, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.488, 0.789, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_41_3-8_2-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.653, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.467, 1.501, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow7-8", 1, 0, 0.835, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.084, 0.814, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow7-8"
-plusObject: "Sound toneHigh7-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_42_5-8_7-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow7-8", 1, 0, 1.18, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.143, 1.175, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.17, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.154, 0.885, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow7-8"
-plusObject: "Sound toneHigh7-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_43_7-8_5-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow3-8", 1, 0, 2.06, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.624, 1.396, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.752, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.167, 0.637, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_44_3-8_5-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.236, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.256, 1.028, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.253, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.5, 0.97, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_45_5-8_3-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow2-8", 1, 0, 2.546, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.432, 1.068, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.07, 0.405, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_46_2-8_4-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.273, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.033, 0.67, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.289, 0.623, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_47_4-8_2-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.88, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.29, 1.231, 44100, 660, 0.2, 0.01, 0.01
 Create Sound as pure tone: "toneLow7-8", 1, 0, 0.729, 44100, 440, 0.2, 0.01, 0.01
 Create Sound as pure tone: "toneHigh7-8", 1, 0.076, 0.714, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow7-8"
-plusObject: "Sound toneHigh7-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_48_4-8_7-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow7-8", 1, 0, 1.075, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.052, 0.993, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.275, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.434, 1.072, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -1530,7 +939,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/31_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.578, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.654, 1.443, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -1540,49 +954,42 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_49_7-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/31_4-8-part.wav"
 select all
 Remove
-Create Sound as pure tone: "toneLow3-8", 1, 0, 2.143, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.779, 1.583, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.131, 0.632, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow6-8"
-plusObject: "Sound toneHigh6-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_50_3-8_6-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow6-8", 1, 0, 1.071, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.097, 0.901, 44100, 660, 0.2, 0.01, 0.01
 Create Sound as pure tone: "toneLow3-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.408, 0.909, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.105, 0.606, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/32_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 0.869, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.081, 0.733, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow6-8"
+plusObject: "Sound toneHigh6-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/32_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.011, 0.512, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -1592,7 +999,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/33_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.74, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.42, 1.072, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -1602,49 +1014,42 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_51_6-8_3-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/33_3-8-part.wav"
 select all
 Remove
-Create Sound as pure tone: "toneLow2-8", 1, 0, 2.642, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.224, 0.885, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.572, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.03, 0.387, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_52_2-8_5-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.056, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.1, 0.76, 44100, 660, 0.2, 0.01, 0.01
 Create Sound as pure tone: "toneLow2-8", 1, 0, 1.432, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.403, 0.762, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.059, 0.418, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/34_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.814, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.089, 0.598, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/34_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.572, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.187, 0.544, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -1654,7 +1059,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/35_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 2.037, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.424, 0.934, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -1664,18 +1074,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_53_5-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/35_2-8-part.wav"
 select all
 Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.093, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.06, 0.744, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 1.314, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.144, 1.13, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.577, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.34, 1.326, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -1685,28 +1089,27 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow6-8"
-plusObject: "Sound toneHigh6-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
 selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_54_5-8_6-8.wav"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/36_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow6-8", 1, 0, 0.912, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.191, 0.875, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.577, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.281, 1.267, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.221, 0.905, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow6-8"
+plusObject: "Sound toneHigh6-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/36_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 1.314, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.012, 0.998, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -1716,7 +1119,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/37_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.093, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.298, 0.982, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -1726,18 +1134,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_55_6-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/37_5-8-part.wav"
 select all
 Remove
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.113, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.506, 1.063, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.375, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.134, 0.994, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.718, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.549, 1.409, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -1747,28 +1149,27 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
 selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_56_4-8_5-8.wav"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/38_4-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 0.891, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.213, 0.77, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.718, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.789, 1.649, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.33, 0.887, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/38_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.375, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.003, 0.863, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -1778,7 +1179,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/39_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.113, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.315, 0.872, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -1788,18 +1194,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_57_5-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/39_4-8-part.wav"
 select all
 Remove
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.203, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.299, 0.6, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.608, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.925, 1.528, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneLow2-8", 1, 0, 2.413, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 1.233, 1.837, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -1809,28 +1209,27 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
 selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_58_2-8_3-8.wav"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/40_2-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow3-8", 1, 0, 0.801, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.122, 0.422, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 2.413, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 1.222, 1.826, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.029, 0.329, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/40_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.608, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.436, 1.039, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -1840,7 +1239,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/41_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.203, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.362, 0.663, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -1850,18 +1254,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_59_3-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/41_2-8-part.wav"
 select all
 Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.17, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.229, 0.96, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow7-8", 1, 0, 1.18, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.028, 1.06, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.653, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.302, 1.336, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -1871,7 +1269,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/42_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 0.835, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.039, 0.769, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -1881,183 +1284,1077 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/42_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 1.18, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.038, 1.07, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow7-8"
+plusObject: "Sound toneHigh7-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
 selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_60_5-8_7-8.wav"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/43_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.17, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.02, 0.751, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/43_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 2.06, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.543, 1.315, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/44_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.752, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.241, 0.711, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/44_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.236, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.135, 0.907, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/45_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.253, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.387, 0.857, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/45_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 2.546, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 1.576, 2.212, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/46_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.256, 0.591, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/46_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.273, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.037, 0.674, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/47_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.326, 0.66, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/47_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.88, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.75, 1.691, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/48_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 0.729, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.046, 0.684, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow7-8"
+plusObject: "Sound toneHigh7-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/48_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 1.075, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.098, 1.039, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow7-8"
+plusObject: "Sound toneHigh7-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/49_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.275, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.227, 0.865, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/49_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 2.143, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 1.294, 2.098, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/50_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.112, 0.613, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow6-8"
+plusObject: "Sound toneHigh6-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/50_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 1.071, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.123, 0.927, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow6-8"
+plusObject: "Sound toneHigh6-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/51_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.68, 1.181, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/51_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 2.642, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.687, 1.348, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/52_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.572, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.167, 0.524, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/52_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.056, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.308, 0.968, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/53_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.432, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.204, 0.563, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/53_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.093, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.378, 1.062, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/54_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 1.314, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.285, 1.271, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow6-8"
+plusObject: "Sound toneHigh6-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/54_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 0.912, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.224, 0.908, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow6-8"
+plusObject: "Sound toneHigh6-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/55_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.577, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.565, 1.551, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/55_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.113, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.316, 0.873, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/56_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.375, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.331, 1.191, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/56_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.891, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.186, 0.743, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/57_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.718, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.432, 1.292, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/57_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.203, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.365, 0.666, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/58_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.608, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.771, 1.374, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/58_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 0.801, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.081, 0.381, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/59_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 2.413, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 1.766, 2.37, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/59_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.17, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.058, 0.789, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/60_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 1.18, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.006, 1.038, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow7-8"
+plusObject: "Sound toneHigh7-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/60_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 0.835, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.03, 0.76, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow7-8"
+plusObject: "Sound toneHigh7-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/61_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.653, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.081, 1.115, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/61_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.253, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.285, 0.755, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/62_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.236, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.186, 0.958, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/62_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.752, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.101, 0.571, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/63_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 2.06, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 1.204, 1.976, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/63_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.176, 0.51, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/64_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.273, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.014, 0.651, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/64_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.181, 0.516, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/65_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 2.546, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 1.38, 2.016, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/65_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.275, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.564, 1.202, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/66_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 1.075, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.038, 0.979, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow7-8"
+plusObject: "Sound toneHigh7-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/66_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 0.729, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.037, 0.675, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow7-8"
+plusObject: "Sound toneHigh7-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/67_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.88, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.837, 1.778, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/67_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.341, 0.842, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/68_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 1.071, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.102, 0.906, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow6-8"
+plusObject: "Sound toneHigh6-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/68_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.059, 0.56, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow6-8"
+plusObject: "Sound toneHigh6-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/69_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 2.143, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 1.314, 2.118, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/69_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.432, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.465, 0.824, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/70_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.056, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.035, 0.695, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/70_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.572, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.167, 0.524, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/71_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 2.642, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.595, 1.256, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/71_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.819, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.394, 1.531, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/72_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 0.912, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.034, 0.718, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow6-8"
+plusObject: "Sound toneHigh6-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/72_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 1.516, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.197, 1.334, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow6-8"
+plusObject: "Sound toneHigh6-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/73_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.093, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.089, 0.773, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/73_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 2.021, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.519, 1.53, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/74_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.891, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.008, 0.565, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/74_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.617, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.335, 1.346, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/75_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.113, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.46, 1.017, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow4-8"
+plusObject: "Sound toneHigh4-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/75_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 3.018, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 2.161, 2.916, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/76_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 0.801, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.157, 0.457, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/76_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 2.011, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.854, 1.608, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow3-8"
+plusObject: "Sound toneHigh3-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/77_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.203, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.041, 0.342, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow2-8"
+plusObject: "Sound toneHigh2-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_B"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/77_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.895, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.129, 1.314, 44100, 660, 0.2, 0.01, 0.01
+selectObject: "Sound toneLow5-8"
+plusObject: "Sound toneHigh5-8"
+Combine to stereo
+selectObject: "Sound combined_2"
+Convert to mono
+selectObject: "Sound combined_2_mono"
+Rename: "combined_2_mono_A"
+selectObject: "Sound combined_2"
+Remove
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/78_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow7-8", 1, 0, 0.835, 44100, 440, 0.2, 0.01, 0.01
 Create Sound as pure tone: "toneHigh7-8", 1, 0.003, 0.733, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.653, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.274, 1.308, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow7-8"
-plusObject: "Sound toneHigh7-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_61_7-8_5-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.253, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.145, 0.615, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.236, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.425, 1.197, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_62_3-8_5-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.752, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.095, 0.565, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 2.06, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 1.054, 1.826, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_63_5-8_3-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.097, 0.431, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.273, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.239, 0.876, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_64_2-8_4-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow4-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.16, 0.495, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 2.546, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.897, 1.533, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_65_4-8_2-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.275, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.176, 0.814, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow7-8", 1, 0, 1.075, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.131, 1.072, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -2067,390 +2364,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_66_4-8_7-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow7-8", 1, 0, 0.729, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.0, 0.638, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.88, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.792, 1.733, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow7-8"
-plusObject: "Sound toneHigh7-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_67_7-8_4-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.09, 0.591, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 1.071, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.266, 1.07, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow6-8"
-plusObject: "Sound toneHigh6-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_68_3-8_6-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow6-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.104, 0.605, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 2.143, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.777, 1.581, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow6-8"
-plusObject: "Sound toneHigh6-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_69_6-8_3-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.432, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.376, 0.735, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.056, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.075, 0.735, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_70_2-8_5-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.572, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.185, 0.542, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 2.642, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.56, 1.221, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_71_5-8_2-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.819, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.053, 1.19, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 0.912, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.141, 0.825, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow6-8"
-plusObject: "Sound toneHigh6-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_72_5-8_6-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow6-8", 1, 0, 1.516, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.335, 1.472, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.093, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.019, 0.703, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow6-8"
-plusObject: "Sound toneHigh6-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_73_6-8_5-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow4-8", 1, 0, 2.021, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.47, 1.481, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.891, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.29, 0.847, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_74_4-8_5-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.617, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.571, 1.582, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.113, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.357, 0.914, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow4-8"
-plusObject: "Sound toneHigh4-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_75_5-8_4-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow2-8", 1, 0, 3.018, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 1.574, 2.329, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 0.801, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.207, 0.507, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_76_2-8_3-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow3-8", 1, 0, 2.011, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.212, 0.966, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.203, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.662, 0.963, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow3-8"
-plusObject: "Sound toneHigh3-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow2-8"
-plusObject: "Sound toneHigh2-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_77_3-8_2-8.wav"
-select all
-Remove
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.895, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.62, 1.805, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow7-8", 1, 0, 0.835, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.098, 0.828, 44100, 660, 0.2, 0.01, 0.01
-selectObject: "Sound toneLow5-8"
-plusObject: "Sound toneHigh5-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_A"
-selectObject: "Sound combined_2"
-Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
-selectObject: "Sound toneLow7-8"
-plusObject: "Sound toneHigh7-8"
-Combine to stereo
-selectObject: "Sound combined_2"
-Convert to mono
-selectObject: "Sound combined_2_mono"
-Rename: "combined_2_mono_B"
-selectObject: "Sound combined_2"
-Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_78_5-8_7-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/78_7-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow7-8", 1, 0, 1.353, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.078, 1.262, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.17, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.117, 0.848, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.162, 1.346, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -2460,7 +2379,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/79_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.17, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.279, 1.01, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -2470,18 +2394,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_79_7-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/79_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow3-8", 1, 0, 2.462, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 1.266, 2.189, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.752, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.022, 0.492, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.491, 1.414, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -2491,7 +2409,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/80_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.752, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.175, 0.645, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -2501,18 +2424,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_80_3-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/80_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 1.477, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.312, 1.235, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.253, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.322, 0.792, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.479, 1.402, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -2522,7 +2439,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/81_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.253, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.485, 0.955, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -2532,18 +2454,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_81_5-8_3-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/81_3-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow2-8", 1, 0, 3.15, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 1.256, 2.043, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.035, 0.37, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 1.563, 2.35, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -2553,7 +2469,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/82_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.246, 0.581, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -2563,18 +2484,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_82_2-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/82_4-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow4-8", 1, 0, 1.576, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.601, 1.389, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.151, 0.485, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.776, 1.564, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -2584,7 +2499,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/83_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.907, 1.241, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -2594,18 +2514,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_83_4-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/83_2-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow4-8", 1, 0, 2.183, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.344, 1.436, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow7-8", 1, 0, 0.729, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.015, 0.653, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.613, 1.705, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -2615,7 +2529,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/84_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 0.729, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.064, 0.702, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -2625,18 +2544,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_84_4-8_7-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/84_7-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow7-8", 1, 0, 1.247, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.031, 1.123, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.275, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.115, 0.753, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.099, 1.191, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -2646,7 +2559,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/85_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.275, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.123, 0.761, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -2656,18 +2574,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_85_7-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/85_4-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow3-8", 1, 0, 2.546, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.92, 1.875, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.164, 0.665, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.201, 1.156, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -2677,7 +2589,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/86_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.091, 0.592, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -2687,18 +2604,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_86_3-8_6-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/86_6-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow6-8", 1, 0, 1.273, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.144, 1.099, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.654, 1.155, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.062, 1.017, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -2708,7 +2619,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/87_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.341, 0.842, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -2718,18 +2634,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_87_6-8_3-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/87_3-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow2-8", 1, 0, 3.246, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 2.15, 2.962, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 0.572, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.078, 0.435, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.5, 1.312, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -2739,7 +2649,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/88_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 0.572, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.055, 0.412, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -2749,18 +2664,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_88_2-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/88_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 1.298, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.23, 1.041, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 1.432, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.227, 0.586, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.012, 0.823, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -2770,7 +2679,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/89_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 1.432, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.108, 0.467, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -2780,18 +2694,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_89_5-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/89_2-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 1.093, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.112, 0.796, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 1.516, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.079, 1.216, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.233, 0.917, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -2801,7 +2709,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/90_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 1.516, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.209, 1.346, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -2811,18 +2724,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_90_5-8_6-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/90_6-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow6-8", 1, 0, 0.912, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.139, 0.823, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.819, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.107, 1.244, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.163, 0.847, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -2832,7 +2739,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/91_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.819, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.369, 1.506, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -2842,18 +2754,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_91_6-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/91_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow4-8", 1, 0, 1.113, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.142, 0.699, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.617, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.151, 1.162, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.005, 0.562, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -2863,7 +2769,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/92_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.617, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.329, 1.34, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -2873,18 +2784,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_92_4-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/92_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 0.891, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.279, 0.836, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 2.021, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.636, 1.647, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.002, 0.559, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -2894,7 +2799,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/93_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 2.021, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.756, 1.767, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -2904,18 +2814,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_93_5-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/93_4-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow2-8", 1, 0, 1.203, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.63, 0.931, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 2.011, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.801, 1.555, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.809, 1.11, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -2925,7 +2829,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/94_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 2.011, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.338, 1.092, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -2935,18 +2844,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_94_2-8_3-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/94_3-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow3-8", 1, 0, 0.801, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.097, 0.397, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 3.018, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.309, 1.064, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.04, 0.34, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -2956,7 +2859,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/95_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 3.018, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.649, 1.404, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -2966,18 +2874,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_95_3-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/95_2-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 1.17, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.209, 0.94, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow7-8", 1, 0, 1.353, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.09, 1.274, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.056, 0.787, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -2987,7 +2889,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/96_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 1.353, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.043, 1.227, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -2997,18 +2904,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_96_5-8_7-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/96_7-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow7-8", 1, 0, 0.835, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.091, 0.821, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.895, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.243, 1.428, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.042, 0.772, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -3018,7 +2919,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/97_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.895, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.294, 1.479, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -3028,18 +2934,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_97_7-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/97_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow3-8", 1, 0, 1.253, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.486, 0.956, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.477, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.194, 1.117, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.045, 0.515, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -3049,7 +2949,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/98_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.477, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.457, 1.38, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -3059,18 +2964,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_98_3-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/98_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 0.752, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.121, 0.591, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 2.462, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.101, 1.024, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.184, 0.654, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -3080,7 +2979,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/99_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 2.462, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 1.383, 2.306, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -3090,18 +2994,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_99_5-8_3-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/99_3-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow2-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.847, 1.181, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 1.576, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.683, 1.471, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.995, 1.329, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -3111,7 +3009,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/100_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 1.576, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.028, 0.816, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -3121,18 +3024,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_100_2-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/100_4-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow4-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.288, 0.623, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 3.15, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 1.592, 2.379, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.005, 0.34, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -3142,7 +3039,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/101_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 3.15, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.188, 0.975, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -3152,18 +3054,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_101_4-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/101_2-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow4-8", 1, 0, 1.275, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.31, 0.948, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow7-8", 1, 0, 1.247, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.077, 1.169, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.323, 0.961, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -3173,7 +3069,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/102_4-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow7-8", 1, 0, 1.247, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.143, 1.235, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -3183,18 +3084,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_102_4-8_7-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/102_7-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow7-8", 1, 0, 0.729, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh7-8", 1, 0.058, 0.696, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow4-8", 1, 0, 2.183, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh4-8", 1, 0.618, 1.71, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh7-8", 1, 0.065, 0.703, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow7-8"
 plusObject: "Sound toneHigh7-8"
 Combine to stereo
@@ -3204,7 +3099,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/103_7-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow4-8", 1, 0, 2.183, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh4-8", 1, 0.462, 1.554, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow4-8"
 plusObject: "Sound toneHigh4-8"
 Combine to stereo
@@ -3214,18 +3114,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_103_7-8_4-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/103_4-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow3-8", 1, 0, 1.336, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 0.752, 1.253, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow6-8", 1, 0, 1.273, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.299, 1.254, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 0.352, 0.853, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -3235,7 +3129,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/104_3-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow6-8", 1, 0, 1.273, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.015, 0.97, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -3245,18 +3144,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_104_3-8_6-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/104_6-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow6-8", 1, 0, 0.669, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh6-8", 1, 0.138, 0.639, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow3-8", 1, 0, 2.546, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh3-8", 1, 1.102, 2.057, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh6-8", 1, 0.115, 0.616, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow6-8"
 plusObject: "Sound toneHigh6-8"
 Combine to stereo
@@ -3266,7 +3159,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/105_6-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow3-8", 1, 0, 2.546, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh3-8", 1, 1.382, 2.337, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow3-8"
 plusObject: "Sound toneHigh3-8"
 Combine to stereo
@@ -3276,18 +3174,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_105_6-8_3-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/105_3-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow2-8", 1, 0, 1.432, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.468, 0.827, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow5-8", 1, 0, 1.298, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.193, 1.004, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 0.207, 0.566, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -3297,7 +3189,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/106_2-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow5-8", 1, 0, 1.298, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.232, 1.043, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -3307,18 +3204,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_106_2-8_5-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/106_5-8-part.wav"
 select all
 Remove
 Create Sound as pure tone: "toneLow5-8", 1, 0, 0.572, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh5-8", 1, 0.205, 0.562, 44100, 660, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneLow2-8", 1, 0, 3.246, 44100, 440, 0.2, 0.01, 0.01
-Create Sound as pure tone: "toneHigh2-8", 1, 0.498, 1.31, 44100, 660, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh5-8", 1, 0.174, 0.531, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow5-8"
 plusObject: "Sound toneHigh5-8"
 Combine to stereo
@@ -3328,7 +3219,12 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_A"
 selectObject: "Sound combined_2"
 Remove
-Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"
+selectObject: "Sound combined_2_mono_A"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/107_5-8-part.wav"
+select all
+Remove
+Create Sound as pure tone: "toneLow2-8", 1, 0, 3.246, 44100, 440, 0.2, 0.01, 0.01
+Create Sound as pure tone: "toneHigh2-8", 1, 1.672, 2.484, 44100, 660, 0.2, 0.01, 0.01
 selectObject: "Sound toneLow2-8"
 plusObject: "Sound toneHigh2-8"
 Combine to stereo
@@ -3338,11 +3234,7 @@ selectObject: "Sound combined_2_mono"
 Rename: "combined_2_mono_B"
 selectObject: "Sound combined_2"
 Remove
-selectObject: "Sound combined_2_mono_A"
-plusObject: "Sound delay"
-plusObject: "Sound combined_2_mono_B"
-Concatenate
-selectObject: "Sound chain"
-Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/1.1/Stim_107_5-8_2-8.wav"
+selectObject: "Sound combined_2_mono_B"
+Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/107_2-8-part.wav"
 select all
 Remove
