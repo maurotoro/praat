@@ -537,8 +537,8 @@ for x,datae in enumerate(zip(c,d)):
     selsB='selectObject: "Sound '+namBL+'"\n'+'plusObject: "Sound '+namBH+'"\n'+"Combine to stereo\n"+'selectObject: "Sound combined_2"\n'+"Convert to mono\n"+'selectObject: "Sound combined_2_mono"\n'+'Rename: "combined_2_mono_B"\n'+'selectObject: "Sound combined_2"\n'+'Remove\nselectObject: "Sound combined_2_mono_B"\n'
     delay='Create Sound from formula: "delay", 1, 0, 0.75, 44100, "0"\n'
     #cat='selectObject: "Sound combined_2_mono_A"\n'+'plusObject: "Sound delay"\n'+'plusObject: "Sound combined_2_mono_B"\n'+'Concatenate\n'+'selectObject: "Sound chain"\n'
-    savWA='Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/'+str(x)+'_'+str(dataA[0])+'-part'+'.wav"\n'+'select all\nRemove\n'
-    savWB='Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/'+str(x)+'_'+str(dataB[0])+'-part'+'.wav"\n'+'select all\nRemove\n'
+    savWA='Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/'+str(x)+'A_'+str(dataA[0])+'-part'+'.wav"\n'+'select all\nRemove\n'
+    savWB='Save as WAV file: "/Personal/scripKidd/git/praat/Sounds/comp1.1/'+str(x)+'B_'+str(dataB[0])+'-part'+'.wav"\n'+'select all\nRemove\n'
     with  open("/Personal/scripKidd/git/praat/praatScript_AravaEP2CompatX1.1.p","a+") as f:
         f.write(csndAL+"\n"+csndAH+"\n"+selsA+savWA+csndBL+"\n"+csndBH+"\n"+selsB+savWB)
         f.close()
