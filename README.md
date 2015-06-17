@@ -3,6 +3,8 @@ Prat scripts and sounds
 
 The Sounds/ folder contains all stimulus pairs created
 
+The openSesame/ folder has all the openSesame scripts to run the experiments. [ http://osdoc.cogsci.nl/getting-opensesame/download/ ]
+
 the praatScript_oneXone.p it's the praat script created by the arava2sound.py script
 
 the arava2sound scripts uses the lists of durations created by translating the sizes of rects used by Arava et al experiment. 
